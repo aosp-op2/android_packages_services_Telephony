@@ -101,16 +101,16 @@ public class PhoneToggler extends BroadcastReceiver {
             case Phone.NT_MODE_LTE_CDMA_EVDO_GSM_WCDMA:
             case Phone.NT_MODE_LTE_ONLY:
             case Phone.NT_MODE_LTE_WCDMA:
-            case Phone.NT_MODE_TDSCDMA_ONLY:
-            case Phone.NT_MODE_TDSCDMA_WCDMA:
-            case Phone.NT_MODE_LTE_TDSCDMA:
-            case Phone.NT_MODE_TDSCDMA_GSM:
-            case Phone.NT_MODE_LTE_TDSCDMA_GSM:
-            case Phone.NT_MODE_TDSCDMA_GSM_WCDMA:
-            case Phone.NT_MODE_LTE_TDSCDMA_WCDMA:
-            case Phone.NT_MODE_LTE_TDSCDMA_GSM_WCDMA:
-            case Phone.NT_MODE_TDSCDMA_CDMA_EVDO_GSM_WCDMA:
-            case Phone.NT_MODE_LTE_TDSCDMA_CDMA_EVDO_GSM_WCDMA:
+            case Phone.NT_MODE_TD_SCDMA_ONLY:
+            case Phone.NT_MODE_TD_SCDMA_WCDMA:
+            case Phone.NT_MODE_TD_SCDMA_LTE:
+            case Phone.NT_MODE_TD_SCDMA_GSM:
+            case Phone.NT_MODE_TD_SCDMA_GSM_LTE:
+            case Phone.NT_MODE_TD_SCDMA_GSM_WCDMA:
+            case Phone.NT_MODE_TD_SCDMA_WCDMA_LTE:
+            case Phone.NT_MODE_TD_SCDMA_GSM_WCDMA_LTE:
+            case Phone.NT_MODE_TD_SCDMA_GSM_WCDMA_CDMA_EVDO :
+            case Phone.NT_MODE_TD_SCDMA_LTE_CDMA_EVDO_GSM_WCDMA:
                 return true;
             default:
                 return false;

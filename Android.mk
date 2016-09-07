@@ -9,11 +9,12 @@ phone_common_dir := ../../apps/PhoneCommon
 src_dirs := src $(phone_common_dir)/src sip/src
 res_dirs := res $(phone_common_dir)/res sip/res
 
-LOCAL_JAVA_LIBRARIES := telephony-common voip-common ims-common telephony-ext
+LOCAL_JAVA_LIBRARIES := telephony-common voip-common ims-common
 LOCAL_STATIC_JAVA_LIBRARIES := \
         org.apache.http.legacy \
         guava \
-        volley
+        volley \
+        telephony-ext 
 
 LOCAL_SRC_FILES := $(call all-java-files-under, $(src_dirs))
 LOCAL_SRC_FILES += \
